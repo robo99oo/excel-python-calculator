@@ -22,11 +22,13 @@ It allows users to perform mathematical operations in Excel while leveraging Pyt
 
 ## Project Structure
 
+```
 excel-python-calculator/
 │── calculator.py        # Python logic + xlwings entry point
 │── Calculator.xlsx      # Excel interface with inputs, outputs, and Compute button
 │── README.md            # Project documentation
 │── requirements.txt     # Python dependencies
+```
 
 ---
 
