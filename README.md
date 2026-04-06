@@ -33,7 +33,7 @@ excel-python-calculator/
 ## Setup Instructions
 
 ### 1. Install dependencies
-```bash
+```bash```
 pip install xlwings openpyxl
 
 ### 2. xlwings addin install
