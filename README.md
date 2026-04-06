@@ -21,7 +21,6 @@ It allows users to perform mathematical operations in Excel while leveraging Pyt
 ---
 
 ## Project Structure
-
 ```
 excel-python-calculator/
 │── calculator.py        # Python logic + xlwings entry point
@@ -35,20 +34,26 @@ excel-python-calculator/
 ## Setup Instructions
 
 ### 1. Install dependencies
-```bash```
+```bash
 pip install xlwings openpyxl
+```
 
-### 2. xlwings addin install
+### 2. Install xlwings add-in
+```bash
+xlwings addin install
+```
 
 ### 3. Open Excel file
 - Open `Calculator.xlsx` in Excel
 
-### 4. Ensure xlwings Add-in is active
+### 4. Ensure xlwings add-in is active
 - Check Excel Add-ins tab
 
 ### 5. Run the application
 - Click the **Compute** button
+
 ---
+
 ## How to Use
 
 | Cell | Purpose |
@@ -59,6 +64,7 @@ pip install xlwings openpyxl
 | B6 | Result (written by Python) |
 | B7 | Status/Error message |
 
+---
 
 ## Supported Operations
 
@@ -71,6 +77,7 @@ pip install xlwings openpyxl
 | POWER | POW | x ^ y |
 | MODULO | MOD | x mod y |
 
+---
 
 ## Error Handling
 
@@ -82,10 +89,12 @@ pip install xlwings openpyxl
 | Unsupported operation | ERROR: Unsupported operation |
 | Unexpected error | UNEXPECTED ERROR |
 
+---
+
 ## How It Works
 
-1. User inputs values in Excel
-2. Clicks "Compute"
-3. Excel triggers Python via xlwings
-4. Python validates inputs and performs calculation
-5. Result is written back to Excel
+1. User inputs values in Excel  
+2. Clicks **Compute**  
+3. Excel triggers Python via xlwings  
+4. Python validates inputs and performs calculation  
+5. Result is written back to Excel  
